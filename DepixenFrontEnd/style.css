@@ -1,0 +1,157 @@
+#navbarUl{
+    display: inline-flex;
+    margin-right: 100px;
+}
+.navbarLinks{
+    margin-top: 12px;
+}
+
+@media (min-width: 1200px){
+#bodyContainer {
+    max-width: 1440px;
+}
+}
+
+#detayButton{
+    color:black;
+     margin-top:40px;
+     border:2px solid #E2011B;
+     padding-left: 30px;
+     padding-right: 30px;
+    border-radius: 0;
+  
+}
+
+#animationBoxesBefore{
+    width:200px;
+    height:120px;
+    border:2px solid black;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 20px;    
+}
+#animationBoxesAfter{
+    width:200px;
+    height:120px;
+    border:2px solid black;
+ margin-top: 20px;
+  
+}
+.animationBoxBefore{
+   writing-mode:vertical-lr;
+   transform: rotate(180deg); 
+   text-align: center;
+    margin-top: 30px; 
+    font-size: 0.20in; 
+    margin-left: 5px;
+     color: #E72F45; 
+     float: left;
+}
+
+.animationBoxAfter{
+    writing-mode:vertical-lr;
+    transform: rotate(180deg); 
+    text-align: center;
+     margin-top: 40px; 
+     font-size: 0.20in; 
+     margin-left: -5px;
+      color: #E72F45; 
+  
+ }
+.animationParagraph{
+  float:left;
+  margin-left:30px;
+  margin-top: 5px;
+}
+.animationParagraph p{
+    margin-bottom: 0rem;
+    font-size: 0.21in;
+}
+.vertical-line{
+    display: inline-block;
+    border-left: 1px solid #E2011B;
+    height: 75px;
+    margin-top: 20px;
+    
+}
+.headerText{
+    background-color: white;
+}
+#modelOptimizationBox{
+    width:550px;
+    height:150px;
+    border:2px solid #E2011B;
+}
+
+.headerBoxes{
+   width:150px;
+   height:80px;
+   border:2px solid #E2011B;
+}
+
+.optimizationParagraphs{
+   font-size: 0.21in;
+}
+
+#giftCard{
+    width:220px;
+    height:160px;
+    border:2px solid black;
+    margin-left: 45px;
+}
+
+#giftcardPara{
+    margin-top:25px; 
+    margin-left: -15px;
+}
+
+#euroFiyat{
+    color: #E2011B;
+    font-size: 0.40in;
+    margin-top:20px;
+    background-color: white;
+}
+
+#underlineEuro{
+    font-size: 0.23in;
+}
+
+#limitParagraf{
+     margin-left: 45px;
+     width: 300px;
+     font-size: 0.17in;
+}
+
+#renderImage{
+    width: 100%;
+    height: 100%;
+}
+
+#animaticBox{
+    width:350px;
+    height:200px;
+    border:2px solid #E2011B;
+    padding: 5px;
+margin-left: 150px;
+}
+
+/* Video Display */
+
+div.desktop-wrapper {
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 67.5%;
+    height: 0;
+}
+div.desktop-wrapper iframe {
+    box-sizing: border-box;
+    background: url(http://img01.deviantart.net/05b6/i/2011/030/8/5/apple_led_cinema_screen_by_fisshy94-d38e3o5.png) center center no-repeat;
+    background-size: contain;
+    padding: 3.4% 10.8% 18.6%;/* 11.9% 15.5% 14.8% */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Depixen Frontend</title>
+</head>
+
+<body>
+    <div class="container" id="bodyContainer">
+
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FFFFFF;" id="completeNavbar">
+            <a class="navbar-brand" href="#"><img src="Images/navbar_brand.PNG" alt=""> </a>
+            <p>Argus Furniture Modeling <br> Covering and Animatics</p>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mt-2 mt-lg-0 ml-auto" id="navbarUl">
+                    <li class="nav-item active">
+                        <a class="nav-link navbarLinks" href="#">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbarLinks" href="#">ORGATEC SPECIAL PRICE LIST</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbarLinks" href="#">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="Images/orgatec.PNG" alt="">
+
+                            <img src="Images/kp_media_partner.PNG" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <hr>
+
+        <div class="container my-5">
+
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="headerBoxes">
+                        <h3 style="margin-top: 10px;"><b class="headerText">&nbsp;MODELLING</b> </h3>
+                        <b style="font-size:0.22in;">01 </b>
+                    </div>
+                </div>
+                <div class="col-md-3 offset-md-7">
+                    <button type="button" id="detayButton" class="btn btn-outline-danger">DETAYLAR İÇİN
+                        TIKLAYINIZ</button>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <div id="modelOptimizationBox">
+                        <h4>MODEL OPTIMIZATION </h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quod, dicta enim
+                            blanditiis, minima autem ab ipsam aliquam perspiciatis corporis harum earum libero amet
+                            tenetur debitis soluta magnam cumque vel?</p>
+                    </div>
+                    <div class="col-md-9 mt-5">
+                        <img src="Images/catia_rhino_solid.PNG" alt=""> <a href="#" style="color: black;"><u>+9
+                                More</u></a>
+                        <p class="optimizationParagraphs mt-3">Yukarıdaki listede bulunan programlarda veya
+                            benzerlerinden üretilmiş katı modeller <img src="Images/3dmax.PNG" alt=""> formatına
+                            çevrilir.</p>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-md-4">
+                            <p class="optimizationParagraphs mt-3" style="margin-left:10px;">Bu işlemin fiyatı model
+                                başı <b>XXX €</b>'dur. <b>Hediye kartınızla </b>ödeyebilirsiniz.</p>
+                        </div>
+                        <div class="col-md-5 offset-md-2">
+                            <div id="giftCard">
+
+                                <div class="col-md-4 offset-md-8">
+                                    <img src="Images/argus.PNG" alt="" style="float: right; "><br>
+
+                                    <div id="giftcardPara">
+                                        <b id="euroFiyat">1000</b><br>
+                                        <u id="underlineEuro">EURO</u>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <p id="limitParagraf">Eğer limitinizi aşarsanız. <b>3 ay </b> süre ile <b>%30 </b> indirimi
+                                hakkınızı kullanabilirsiniz.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+
+                    <div id="animationBoxesBefore" class="d-inline-block">
+                        <p class="animationBoxBefore">before</p>
+                        <span class="vertical-line" style="float:left;"></span>
+                        <div class="animationParagraph">
+                            <p>Polygon</p>
+                            <p style="color:#E2011B; font-size: 0.30in;"  ><b id="counter1">0</b><b>.</b><b id="counterDecimal1">0</b></p>
+                            <p>High-Poly</p>
+                        </div>
+
+                    </div>
+                    <div id="animationBoxesAfter" class="d-inline-block">
+                            <div class="animationParagraph" style="margin-right: 20px;">
+                                    <p>Polygon</p>
+                                    <p style="color:#E2011B; font-size: 0.30in;" ><b id="counter2">0</b><b>.</b><b id="counterDecimal2">0</b></p>
+                                    <p>Low-Poly</p>
+                                </div>
+                                <span class="vertical-line" style="margin-right:10px;"></span>
+                        <p class="animationBoxAfter" style="float: right;">after</p>
+                       
+                       
+
+                    </div>
+
+
+                    <div class="mt-5">
+                        <img src="Images/model_optimization_animation.PNG" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="headerBoxes">
+                        <h3 style="margin-top: 10px;"><b
+                                class="headerText">&nbsp;COVERING>TEXTURING>UNWRAP>RENDERING</b>
+                        </h3>
+                        <b style="font-size:0.22in;">02 </b>
+                    </div>
+                </div>
+                <div class="col-md-3 offset-md-7">
+                    <button type="button" id="detayButton" class="btn btn-outline-danger">DETAYLAR İÇİN
+                        TIKLAYINIZ</button>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-8">
+                    <img src="Images/rendering.PNG" alt="" id="renderImage">
+                </div>
+                <div class="col-md-4">
+                    <p style="margin-top: 40px;">
+                        Unrep açma hizmeti, modellemesi veya modelleme optimizsyonu bizim tarafımızdan yapılmış
+                        modeller
+                        için geçerlidir.
+                    </p>
+                    <p>
+                        Bu işlem kaliteli bir render alınabilmesi ve animatik yapılabilmesi için gereklidir.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="headerBoxes">
+                        <h3 style="margin-top: 10px;"><b class="headerText"> &nbsp;&nbsp;ANIMATIC</b>
+                        </h3>
+                        <b style="font-size:0.22in;">03 </b>
+                    </div>
+                </div>
+                <div class="col-md-3 offset-md-7">
+                    <button type="button" id="detayButton" class="btn btn-outline-danger">DETAYLAR İÇİN
+                        TIKLAYINIZ</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="row">
+                    <img src="Images/bone_kitap.PNG" alt="" style="margin-left: 165px;">
+                    <div id="animaticBox" class="mt-5">
+
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quod, dicta enim
+                            blanditiis, minima autem ab ipsam aliquam perspiciatis corporis harum earum libero amet
+                            tenetur debitis soluta magnam cumque vel? Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit. Quibusdam, nulla?</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="col-md-8">
+                <div class="desktop-wrapper" style="width: 100%;">
+                    <iframe width="560" height="315"
+                        src="https://www.konseptprojeler.com/uploads/animated-adv/26/Argus_B_T_Final_G_1_1_xxx.mp4"
+                        frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Footer -->
+        <footer class="page-footer font-small mdb-color pt-4">
+
+
+            <hr>
+
+            <!-- Grid row -->
+            <div class="row d-flex align-items-center">
+
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4">
+
+                    <!--Copyright-->
+                    <p class="text-right text-md-left">
+                        <i class="fa fa-envelope-o" style="color: #ED6070;"></i> kerimcanislamoglu1@gmail.com
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+                <div class="col-md-4 ">
+
+                    <!-- Social buttons -->
+                    <div class="text-center">
+                        <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                    <i class="fa fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                    <i class="fa fa-youtube-play"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                    <i class="fa fa-pinterest"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+
+                    <!--Copyright-->
+                    <p class="text-right">© 2018 Copyright: Argus Media. All rights reserved.
+
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    </footer>
+    <!-- Footer -->
+    </div>
+
+    <script src="script.js"></script>
+   
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
